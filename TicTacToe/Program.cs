@@ -26,6 +26,8 @@ namespace TicTacToe
             {
                 computerMarker = 'O';
             }
+
+            TicTacToeGame.ShowBoard(board);
         }
     }
 }
