@@ -15,5 +15,11 @@ namespace TicTacToe
             }
             return board;
         }
+
+        public static char SelectMarker()
+        {
+            Console.WriteLine("Select your marker, either 'O' or 'X':");
+            return Console.ReadLine().ToUpper().ToCharArray()[0];
+        }
     }
 }
